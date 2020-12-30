@@ -1,0 +1,77 @@
+body {
+    min-height: 100px; 
+    height: 100px;
+}
+.wrapper {
+    width: 450px; 
+    margin: 0 auto; 
+}
+.bg-white { 
+    background-color: #fff;
+}
+.header { 
+    height: 100px;
+    width: 400px; 
+    background-color: #141f40;
+}
+.contents { 
+    width: 400px;
+    height: 250px;
+}
+.contents-left {
+    float: left; 
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+}
+.contents-rigth {
+    float:left;
+    width: 250px;
+    height: 250px;
+}
+
+.contents-top {
+    float: left;
+    width: 250px;
+    height: 150px;
+}
+
+.top-left {
+    float:left;
+    width: 150px;
+    height: 150px;
+}
+.yello {
+    width: 150px;
+    height: 50px;
+    background-color: #dbd400;
+}
+.blue {
+    width: 150px;
+    height: 100px;
+    background-color: #0093b7;
+}
+.orange {
+    float: left;
+    width: 100px;
+    height: 150px;
+    background-color: #ff9e6b;
+}
+.contents-under {
+    float: left;
+    width: 250px;
+    height: 100px;
+    background-color: #8c2727;
+}
+.footer {
+    width: 400px;
+    height: 100px;
+    background-color: #d98d30;
+}
+
+
+.clearfix::after { 
+    content: '';
+    display: block; 
+    clear: both;
+}

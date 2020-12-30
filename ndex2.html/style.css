@@ -1,0 +1,26 @@
+h1 {
+    color: red;
+}
+
+p {
+    font-size: 50px; 
+    font-family: "Anenir Next";
+}
+
+h1 {
+    width:500px; height:100px;
+    background-color: #ddd;
+}
+
+img {
+    width:500px;
+    height:500px;
+}
+
+.select { 
+    color: red;
+}
+
+.main { 
+    // 装飾する内容を記述
+    }
