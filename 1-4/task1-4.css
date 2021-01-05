@@ -6,9 +6,6 @@ body {
     width: 450px; 
     margin: 0 auto; 
 }
-.bg-white { 
-    background-color: #fff;
-}
 .header { 
     height: 100px;
     width: 400px; 
@@ -67,6 +64,7 @@ body {
     width: 400px;
     height: 100px;
     background-color: #d98d30;
+
 }
 
 

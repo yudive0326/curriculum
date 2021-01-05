@@ -1,0 +1,113 @@
+
+body {
+    min-height: 100px; 
+    height: 100px;
+}
+.wrapper {
+    width: 400px; 
+    margin: 0 auto; 
+}
+.header { 
+    height: 100px;
+    width: 400px; 
+    background-color: #141f40;
+}
+.header-box { 
+    float: right; 
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.box-left { 
+    float: left; 
+    height: 40px;
+    width: 40px; 
+    padding: 10px 10px;
+    border-top: 4px solid white;
+    border-right: 2px solid white;
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+    background-color: #a9004b;
+}    
+.box-center { 
+    float: left; 
+    height: 40px;
+    width: 40px; 
+    padding: 10px 10px;
+    border-top: 4px solid white;
+    border-right: 2px solid white;
+    border-bottom: 4px solid white;
+    border-left: 2px solid white;
+    background-color: #a9004b;
+}
+.box-right { 
+    float: left; 
+    height: 40px;
+    width: 40px; 
+    padding: 10px 10px;
+    border-top: 4px solid white;
+    border-right: 4px solid white;
+    border-bottom: 4px solid white;
+    border-left: 2px solid white;
+    background-color: #a9004b;
+}
+.contents { 
+    height: 250px;
+    width: 400px; 
+}
+.contents-left { 
+    float: left; 
+    height: 250px;
+    width: 150px; 
+    background-color: #80bfa8;
+}
+.contents-right { 
+    float: right; 
+    height: 250px;
+    width: 250px; 
+    
+    background-color: #8c2727;
+}
+.right-upper { 
+    float: left; 
+    height: 40px;
+    width: 140px; 
+    margin: 30px 60px 0px 40px;
+    border-top: 4px solid white;
+    border-right: 4px solid white;
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+    background-color: #ff863f;
+}
+.right-center { 
+    float: left;
+    height: 40px;
+    width: 140px; 
+    margin:10px 60px 0px 40px;
+    border-top: 4px solid white;
+    border-right: 4px solid white;
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+    background-color: #ff863f;
+}
+.right-lower { 
+    float: left; 
+    height: 40px;
+    width: 140px; 
+    margin:10px 60px 0px 40px;
+    border-top: 4px solid white;
+    border-right: 4px solid white;
+    border-bottom: 4px solid white;
+    border-left: 4px solid white;
+    background-color: #ff863f;
+}
+.footer { 
+    height: 100px;
+    width: 400px; 
+    background-color: #d98d30;
+}
+.clearfix::after { 
+    content: '';
+    display: block; 
+    clear: both;
+}
+
